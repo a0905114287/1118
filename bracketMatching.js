@@ -19,7 +19,7 @@ class Stack {
 }
 
 
-var str = "{a = (1 + v(b[3 + c[4]]))}"
+var str = "{a = (1 + v(b[3 + c[4]]))"
 // console.log(str.charAt(0));
 console.log(bracketMatch(str));
 
